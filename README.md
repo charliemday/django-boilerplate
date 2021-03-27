@@ -1,4 +1,4 @@
-# boilerplate-django-rest-demo
+# boilerplate-backend
 Starter for using Django Rest Framework
 
 ## Setup
