@@ -8,7 +8,6 @@ class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(min_length=6, write_only=True, required=True)
 
     def validate(self, data):
-        import ipdb; ipdb.set_trace()
         username = data.get("username")
         if username:
             # Check if username already exists
