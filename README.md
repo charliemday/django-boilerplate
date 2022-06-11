@@ -30,3 +30,13 @@ Verifies a username password match and returns a unique token specific to that u
 `/signup/`
 
 Creates a user with username and password and returns a unique token specific to that user
+
+## Deployment
+
+You can easily deploy this on either Heroku or Render with the following config
+
+- The start command is `gunicorn backend.wsgi`
+- The build command is `pip install -r requirements.txt`
+- `PRODUCTION` environment variable should be `True`
+- `EXTERNAL_HOSTNAME` should be whatever the URL is the provider gives you e.g. `something.onrender.com`
+
