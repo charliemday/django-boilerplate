@@ -1,3 +1,6 @@
+
+<img src="https://user-images.githubusercontent.com/45036245/173190159-f3ff8fbc-0d56-4747-8b6a-0de34271e6ca.png" width="300"/>
+
 # Django Boilerplate
 
 A starter repo for a backend webservice with the following features:
