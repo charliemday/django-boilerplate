@@ -1,5 +1,10 @@
-# boilerplate-backend
-Starter for using Django Rest Framework with some Authentication using Django Tokens
+# Django Boilerplate
+
+A starter repo for a backend webservice with the following features:
+
+- Basic Authentication for users
+- Token authentication
+- APIs for `/signup` and `/login`
 
 ## Setup
 
